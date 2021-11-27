@@ -1,15 +1,18 @@
 
 function introduction(name) {
-  console.log(`Hi, my name is ${name}.`);
+  console.log('Hi, my name is'+ name);
   }
-  introduction();
+
+  introduction(Josh);
 
 function introductionWithLanguage (name,language) {
-    console.log(`Hi, my name is ${name} and I am learning to program in ${language}.`);
+  console.log(`Hi, my name is ${name} and I am learning to program in ${language}.`);
   }
-ntroductionWithLanguage();
+
+ntroductionWithLanguage(Ember.js);
 
 function introductionWithLanguageOptional (name, language) {
     console.log(`Hi, my name is ${name} and I am learning to program in ${language}.`);
   }
+  
   introductionWithLanguageOptional();
